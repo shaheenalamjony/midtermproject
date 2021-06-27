@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h2{
+    text-align: center;
+    color: white;
+}
+</style>
+</head>
+<body>
+
+<div class="videoArea">
+</div>
+<div class="row">
+  <div class="column" style="background-color:#00203FFF;">
+    
+    <iframe width="450" height="200"
+    src="https://www.youtube.com/embed/tgbNymZ7vqY">
+    </iframe>
+    <h2>Video 1</h2> 
+  </div>
+  <div class="column" style="background-color:#00203FFF;">
+    
+    <iframe width="450" height="200"
+    src="https://www.youtube.com/embed/tgbNymZ7vqY">
+    </iframe> 
+    <h2>Video 2</h2>
+  </div>
+  <div class="column" style="background-color:#00203FFF;">
+    <iframe width="450" height="200"
+    src="https://www.youtube.com/embed/tgbNymZ7vqY">
+    </iframe>
+    <h2>Video 3</h2> 
+  </div>
+  <div class="column" style="background-color:#00203FFF;">
+    <iframe width="450" height="200"
+    src="https://www.youtube.com/embed/tgbNymZ7vqY">
+    </iframe> 
+    <h2>Video 4</h2>
+  </div>
+</div>
+<div class="videoArea1">
+</div>
+</body>
+</html>
